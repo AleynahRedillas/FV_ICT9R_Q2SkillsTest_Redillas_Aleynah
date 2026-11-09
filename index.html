@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q2 Seatwork 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+
+.section{
+  background-image:url(https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/eb98ffc0-3110-41ac-af77-7139e634afea/OBMC+Intermediate+classroom+3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #212529;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+body{
+  background-color: #212529;
+}
+
+h1{
+    color: #fff;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.396);
+}
+
+p{
+    color: #fff;
+    text-shadow: 1px 1px rgb(33, 37, 41, 0.9);
+} 
+
+#label{
+    background-color:#ffff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+#main-box{
+    background-color:#ffff;
+    padding: 30px;
+}
+
+#header-box{
+    padding: 30px;
+    background-color:#00000060;
+}
+
+footer{
+    background-color: #212529;
+    color: #fbf6fe;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+    </style>
+</head>
+<body>
+    
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/8b5611eb-ff3a-407f-9adc-e116a23373fc/OBMC+LOGO+2024-04.png" alt="" class="rounded-circle logo" style="height: 70px; width: 70px; background-color: white; padding:5px;"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#section1">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section2">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section3">Contact Us</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+
+<div class="section">
+    <div class="row justify-content-center">
+        <div class="container">   
+            <center>
+                <div class="row justify-content-center" id="header-box">
+                    
+                    <div class="col-lg-12 p-2 mt-3">
+                        <h1>OBMC Student Enrollment Form</h1>
+                    <br>
+                        <p>Fill out the form below to enroll for the upcoming school year.</p>
+                    </div>
+                </div>
+            </center>
+        <br>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-lg-6" id="main-box">
+            
+            <div class="row justify-content-center">
+                <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/8b5611eb-ff3a-407f-9adc-e116a23373fc/OBMC+LOGO+2024-04.png" alt="" class="logo" style="height: 200px; width: 200px; background-color: white; padding:5px;">
+            </div>
+
+            <div class="container">
+                <form>
+                    <h2>Student Information</h2>
+
+                    <div class="row">
+                        <div class="col">
+                            <label for="first">First Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Jane" name="first">
+                        </div>
+                    
+                        <div class="col">
+                            <label for="last">Last Name</label>
+                            <input type="text" class="form-control" id="name"placeholder="Doe" name="last">
+                        </div>
+                    </div>  
+        
+                    <div class="row mb-3 mt-3">
+                        <div class="col">
+                            <label for="birthday">Date of Birth</label>
+                            <input type="date" class="form-control" name="birthday">
+                        </div>
+                        
+                        <div class="col">
+                            <label for="level">Grade Level</label>
+                            <select class="form-select">
+                                <option>CASA/Kindergarten</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col">
+                            <label for="gender">Gender</label>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                            <div class="col-sm-4">
+                                <div class="form-check">
+                                <input type="radio" class="form-check-input" id="radio1" name="optradio" value="Male">Male
+                                <label class="form-check-label" for="radio1"></label>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="form-check">
+                                <input type="radio" class="form-check-input" id="radio2" name="optradio" value="Female">Female
+                                <label class="form-check-label" for="radio2"></label>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="form-check">                 
+                                <input type="radio" class="form-check-input" id="radio3" name="optradio" value="Other">Other
+                                <label class="form-check-label" for="radio3"></label>
+                            </div>
+                    </div>
+                    </div>
+                    
+
+                    <h2>Contact Information</h2>
+                    
+
+                        <div class="col">
+                            <label for="number">Contact Number</label>
+                            <input type="number" class="form-control" id="number"
+                        placeholder="09123456789" name="number">
+                        </div>
+
+                        <div class="mb-4 mt-3">
+                            <label for="email">Email Address</label>
+                            <input type="email" class="form-control" id="email"
+                        placeholder="Enter email" name="email">
+                        </div>
+                    
+                    <h2>Mode of Learning</h2>
+
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="check1" name="online" value="online" checked>
+                            <label class="form-check-label" for="check1">Online</label>
+                        </div>
+
+                        <div class="form-check mb-3">
+                            <input type="checkbox" class="form-check-input" id="check2" name="onsite" value="onsite">
+                            <label class="form-check-label" for="check2">Onsite</label>
+                        </div>
+
+                        <div class="form-check mb-3">
+                            <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="remember"> I confirm that all the information provided is true and complete.
+                            </label>
+                        </div>
+
+                        <div class="mb-3 d-grid gap-3">
+                        <button type="button" class="btn btn-primary btn-block p-2">Submit</button>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br>
+</div>
+
+
+
+<footer>
+  <div class="row justify-content-center">
+    <p>NPC Seal of Registration. | Privacy Policy © 2026 O.B. Montessori Center. All Rights Reserved</p>
+    <br>
+  </div>
+</footer>
+
+
+</body>
+</html>
